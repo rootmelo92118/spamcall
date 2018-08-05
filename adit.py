@@ -12,13 +12,13 @@ from googletrans import Translator
 import youtube_dl
 
 #aditmadzs = LineClient()
-aditmadzs = LineClient(authToken='ISI TOKEN MU CINTA')
+aditmadzs = LineClient(authToken='token')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='ISI TOKEN MU CINTA')
+ki = LineClient(authToken='token')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -26,10 +26,10 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #ubah mid di dalem admin json dengan mid kalian
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u874a7502c02896b2edbb3445c2615d35"]
-owner = ["u874a7502c02896b2edbb3445c2615d35"]
-admin = ["u874a7502c02896b2edbb3445c2615d35"]
-staff = ["u874a7502c02896b2edbb3445c2615d35"]
+creator = ["ufe1707ae9b2ff7ab61505795b7995440"]
+owner = ["ufe1707ae9b2ff7ab61505795b7995440","u9b10a925c894226b3420006c1a922a51"]
+admin = ["ufe1707ae9b2ff7ab61505795b7995440","u9b10a925c894226b3420006c1a922a51"]
+staff = ["u9b10a925c894226b3420006c1a922a51"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 KAC = [aditmadzs,ki]
@@ -91,7 +91,7 @@ mulai = time.time()
 msg_dict = {}
 msg_dict1 = {}
 
-tz = pytz.timezone("Asia/Jakarta")
+tz = pytz.timezone("Asia/Taipei")
 timeNow = datetime.now(tz=tz)
 
 def download_page(url):
@@ -180,18 +180,18 @@ def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
     days, hours = divmod(hours, 24)
-    return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
+    return '%02d 天 %02d 小時 %02d 分鐘 %02d 秒' % (days, hours, mins, secs)
 
 def runtime(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
     days, hours = divmod(hours, 24)
-    return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
+    return '%02d 天 %02d 小時 %02d 分鐘 %02d 秒' % (days, hours, mins, secs)
 
 def mentionMembers(to, mid):
     try:
         arrData = ""
-        textx = "Total Mention User「{}」\n\n  [ Mention ]\n1. ".format(str(len(mid)))
+        textx = "總共標記「{}」位群組成員\n  [ Tag ]\n1. ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -218,7 +218,7 @@ def mentionMembers(to, mid):
 def siderMembers(to, mid):
     try:
         arrData = ""
-        textx = "Total Sider User「{}」\nHaii ".format(str(len(mid)))
+        textx = "和「{}」位群組成員互動\n安安 ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -273,7 +273,7 @@ def welcomeMembers(to, mid):
 def leaveMembers(to, mid):
     try:
         arrData = ""
-        textx = "Total Member Keluar「{}」\nByee  ".format(str(len(mid)))
+        textx = "「{}」位成員突然失去了夢想\n要走的人留不住 再見囉(´･ω･`)  ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2

@@ -336,10 +336,10 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔══════════════════════════════╗" + "\n" + \
-                  "      ◄]·✪Aditmadzs✪·[►" + "\n" + \
+                  "      ◄]·✪指令表✪·[►" + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Menu·✪·[►" + "\n" + \
+                  "     ◄]·✪·主命令·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Help\n" + \
                   "╠❂➣ " + key + "Help bot\n" + \
@@ -382,7 +382,7 @@ def help():
                   "╠❂➣ " + key + "Mykey\n" + \
                   "╠❂➣ " + key + "Resetkey\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Hiburan·✪·[►" + "\n" + \
+                  "     ◄]·✪·群組功能操作·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Musik:「Judul Lagu」\n" + \
                   "╠❂➣ " + key + "Musik2:「Judul Lagu」\n" + \
@@ -403,7 +403,7 @@ def help():
                   "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂➣ " + key + "Spamcall\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Protect·✪·[►" + "\n" + \
+                  "     ◄]·✪·保護·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Notag「on/off」\n" + \
                   "╠❂➣ " + key + "Allpro「on/off」\n" + \
@@ -413,7 +413,7 @@ def help():
                   "╠❂➣ " + key + "Protectcancel「on/off」\n" + \
                   "╠❂➣ " + key + "Protectinvite「on/off」\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Settings·✪·[►" + "\n" + \
+                  "     ◄]·✪·機器設定·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Unsend「on/off」\n" + \
                   "╠❂➣ " + key + "Jointicket「on/off」\n" + \
@@ -427,7 +427,7 @@ def help():
                   "╠❂➣ " + key + "Simi「on/off」\n" + \
                   "╠❂➣ " + key + "Autoleave「on/off」\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Admin·✪·[►" + "\n" + \
+                  "     ◄]·✪·管理者指令·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Admin:on\n" + \
                   "╠❂➣ " + key + "Admin:delete\n" + \
@@ -460,10 +460,10 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔══════════════════════════════╗" + "\n" + \
-                  "     🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                  "     🍁🍁🍁 機器控制指令表 🍁🍁🍁" + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·BOT·✪·[►" + "\n" + \
+                  "     ◄]·✪·機器·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Mytoken\n" + \
                   "╠❂➣ " + key + "Cek sider\n" + \
@@ -501,7 +501,7 @@ def helpbot():
                   "╠❂➣ " + key + "Remove chat\n" + \
 				  "╠❂➣ " + key + "Leave:「Namagrup」\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Blacklist·✪·[►" + "\n" + \
+                  "     ◄]·✪·黑名單·✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Blc\n" + \
                   "╠❂➣ " + key + "Ban:on\n" + \
@@ -527,10 +527,10 @@ def helpbot():
 def infomeme():
     helpMessage2 = """
 ╔══════════════════════════════╗
-       ◄]·✪Aditmadzs✪·[►
+       ◄]·✪指令表✪·[►
 ╚══════════════════════════════╝
 ╔══════════════════════════════╗
-    ◄]·✪·List Meme·✪·[►
+    ◄]·✪·清單型指令表·✪·[►
 ╠══════════════════════════════╝
 ╠❂➣ Buzz
 ╠❂➣ Spongebob
@@ -571,10 +571,10 @@ def infomeme():
     
 def translate():
     helpTranslate =    "╔══════════════════════════════╗" + "\n" + \
-                       "     🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                       "     🍁🍁🍁 指令表 🍁🍁🍁" + "\n" + \
                        "╚══════════════════════════════╝" + "\n" + \
                        "╔══════════════════════════════╗" + "\n" + \
-                       "     ◄]·✪·Translate·✪·[►" + "\n" + \
+                       "     ◄]·✪·翻譯·✪·[►" + "\n" + \
                        "╠══════════════════════════════╝" + "\n" + \
 	                   "╠❂➣ Autotrans「en-on/en-off」\n" + \
                        "╠❂➣ Autotrans「id-on/id-off」\n" + \
@@ -730,13 +730,12 @@ def bot(op):
                 if wait["autoLeave"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         aditmadzs.acceptGroupInvitation(op.param1)
-                        ginfo = aditmadzs.getGroup(op.param1)
-                        aditmadzs.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        aditmadzs.sendMessage(op.param1,"自動退群設定啟動\n你並不是權限者")
                         aditmadzs.leaveGroup(op.param1)
                     else:
                         aditmadzs.acceptGroupInvitation(op.param1)
                         ginfo = aditmadzs.getGroup(op.param1)
-                        aditmadzs.sendMessage(op.param1,"Hai " + str(ginfo.name))
+                        aditmadzs.sendMessage(op.param1,str(ginfo.name) + " 的各位\n大家好")
 
         if op.type == 13:
             if mid in op.param3:
@@ -744,22 +743,21 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         aditmadzs.acceptGroupInvitation(op.param1)
                         ginfo = aditmadzs.getGroup(op.param1)
-                        aditmadzs.sendMessage(op.param1,"Haii, salken yaa ^^")
+                        aditmadzs.sendMessage(op.param1,str(ginfo.name) + " 的各位\n大家好")
                     else:
                         aditmadzs.acceptGroupInvitation(op.param1)
                         ginfo = aditmadzs.getGroup(op.param1)
-                        aditmadzs.sendMessage(op.param1,"Haii, salken yaa ^^")
+                        aditmadzs.sendMessage(op.param1,str(ginfo.name) + " 的各位\n大家好")
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ki.acceptGroupInvitation(op.param1)
-                        ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
+                        ki.sendMessage(op.param1,"自動退群設定啟動\n你並不是權限者")
                         ki.leaveGroup(op.param1)
                     else:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Hai " + str(ginfo.name))
+                        ki.sendMessage(op.param1,str(ginfo.name) + " 的各位\n大家好")
 
         if op.type == 13:
             if op.param1 in protectinvite:
